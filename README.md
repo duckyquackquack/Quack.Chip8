@@ -5,7 +5,7 @@ It all began when I randomly decided one day that I needed to start writing emul
  
 
 ## Big Note
-This really is my first "emulator" so even though it works, there's a large number of improvements I want to make to the code, both the general structure of it and also some nice extra functionality that comes as standard with most emulators nowadays such as save states. I had no idea what the code would look like in the end and so there were numerous design decisions and refactorings that I wish I hadn't done. They'll get fixed eventually.
+This really is my first "emulator" so even though it mostly works, there's a large number of improvements I want to make to the code, both the general structure of it and also some nice extra functionality that comes as standard with most emulators nowadays such as save states. I had no idea what the code would look like in the end and so there were numerous design decisions and refactorings that I wish I hadn't done. They'll get fixed eventually.
 
 ## Also...
 Audio doesn't work yet!

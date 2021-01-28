@@ -1,0 +1,33 @@
+﻿Make a working version first, don't bother yourself about getting it perfectly following best practices
+After it works, refactor to look nicer/better 
+Add optimizations if needed
+Add other nice features
+	take screenshot
+	show other info such as registers/PC/etc. current values
+	any other debug info that could be nice
+	support for all common fonts
+	save states
+	rewind?!
+	allow to change the two colours used in the display
+	config to allow users to switch between how some opcodes etc work due to ambigious documentation
+	make the beep pitch configurable
+	allow to configure via either CLI or json config file (if no args passed in cli, will default to some DefaultConfig.json)
+
+Use the command pattern for key presses so they can be mapped to any key (configurable in the json file)
+
+copy a bunch of stuff from this! - https://video.twimg.com/tweet_video/EAOaIjYXYAEttlZ.mp4
+	- maybe also a section when it shows the prev X frames (not too many though!)
+	 - (it's "ImGui")
+
+exception handling
+
+unit tests
+
+make the GUI like this - https://i.redd.it/wzkwwvqbrsy41.png 
+one window for the game and one window for all the debug stuff
+
+see the Fish n Chips emulator source code for some cool stuff like rewind
+
+Extend to also include superchip8 and chip48
+
+Add in some benchmarking so we have some numbers to compare to when we make a rust version of it

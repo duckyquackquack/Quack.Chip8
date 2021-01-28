@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="Quack.WPF.GeneralPurposeRegister"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" d:Background="#0f141a" d:Foreground="White">
+    <GroupBox Header="V0" BorderBrush="Silver" BorderThickness="0.5">
+        <StackPanel Orientation="Vertical">
+            <TextBlock>51</TextBlock>
+            <TextBlock>0x33</TextBlock>
+            <TextBlock>0b00110011</TextBlock>
+        </StackPanel>
+    </GroupBox>
+</UserControl>

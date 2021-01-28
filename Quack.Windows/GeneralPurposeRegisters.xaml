@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="Quack.WPF.GeneralPurposeRegisters"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:wpf="clr-namespace:Quack.WPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" d:Background="#0f141a" d:Foreground="White">
+    <GroupBox Header="General Purpose Registers" BorderThickness="0.5">
+        <Grid Margin="3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <wpf:GeneralPurposeRegister Grid.Row="0" Grid.Column="0"/>
+            <wpf:GeneralPurposeRegister Grid.Row="0" Grid.Column="1"/>
+            <wpf:GeneralPurposeRegister Grid.Row="0" Grid.Column="2"/>
+            <wpf:GeneralPurposeRegister Grid.Row="0" Grid.Column="3"/>
+            <wpf:GeneralPurposeRegister Grid.Row="1" Grid.Column="0"/>
+            <wpf:GeneralPurposeRegister Grid.Row="1" Grid.Column="1"/>
+            <wpf:GeneralPurposeRegister Grid.Row="1" Grid.Column="2"/>
+            <wpf:GeneralPurposeRegister Grid.Row="1" Grid.Column="3"/>
+            <wpf:GeneralPurposeRegister Grid.Row="2" Grid.Column="0"/>
+            <wpf:GeneralPurposeRegister Grid.Row="2" Grid.Column="1"/>
+            <wpf:GeneralPurposeRegister Grid.Row="2" Grid.Column="2"/>
+            <wpf:GeneralPurposeRegister Grid.Row="2" Grid.Column="3"/>
+            <wpf:GeneralPurposeRegister Grid.Row="3" Grid.Column="0"/>
+            <wpf:GeneralPurposeRegister Grid.Row="3" Grid.Column="1"/>
+            <wpf:GeneralPurposeRegister Grid.Row="3" Grid.Column="2"/>
+            <wpf:GeneralPurposeRegister Grid.Row="3" Grid.Column="3"/>
+        </Grid>
+    </GroupBox>
+</UserControl>

@@ -10,7 +10,7 @@ using System.Globalization;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Quack.Chip8.Implementation
+namespace Quack.Chip8.Core.Implementation
 {
     public partial class Chip8Configuration
     {

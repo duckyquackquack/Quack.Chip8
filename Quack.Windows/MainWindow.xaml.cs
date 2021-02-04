@@ -7,7 +7,7 @@ using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using Quack.Chip8.Implementation;
+using Quack.Chip8.Core.Implementation;
 
 namespace Quack.WPF
 {

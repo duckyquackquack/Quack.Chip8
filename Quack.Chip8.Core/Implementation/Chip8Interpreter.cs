@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Quack.Chip8.Implementation
+namespace Quack.Chip8.Core.Implementation
 {
     public class Chip8Interpreter
     {

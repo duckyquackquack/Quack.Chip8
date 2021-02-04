@@ -1,6 +1,6 @@
-﻿using Quack.Chip8.Implementation;
+﻿using Quack.Chip8.Core.Implementation;
 
-namespace Quack.Chip8.Logging
+namespace Quack.Chip8.Core.Logging
 {
     public class OpCodeDescriber
     {

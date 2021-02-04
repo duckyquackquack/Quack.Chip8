@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Quack.Chip8.Implementation
+namespace Quack.Chip8.Core.Implementation
 {
     public enum FontType
     {

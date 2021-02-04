@@ -1,4 +1,4 @@
-﻿namespace Quack.Chip8
+﻿namespace Quack.Chip8.Core
 {
     public interface IMemory
     {

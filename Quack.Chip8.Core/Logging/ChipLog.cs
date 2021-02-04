@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Quack.Chip8.Logging
+namespace Quack.Chip8.Core.Logging
 {
     public class ChipLog
     {
